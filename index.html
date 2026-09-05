@@ -5,18 +5,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Artur | Portfólio</title>
+    <meta name="description" content="Portfólio de Artur Nunes Duarte, estudante de Ciência da Computação em Brasília, com foco em análise de dados, Python e Power BI.">
     <link rel="icon" type="image/png" href="fotos/logo.png">
-    
+
     <link rel="stylesheet" href="style.css">
 
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
-    <header>
+    <header class="site-header">
 
-        <h1>Bem vindo ao meu portfólio</h1>
+        <a href="#top" class="logo">Artur Nunes</a>
 
         <nav>
             <a href="#sobre">Sobre</a>
@@ -27,193 +30,231 @@
 
     </header>
 
+    <main>
 
-    <section class="hero">
+        <section class="hero" id="top">
 
-        <div class="hero-text">
+            <div class="hero-content">
 
-            <h2>Olá, eu sou <span>Artur</span></h2>
+                <h1>Artur Nunes Duarte</h1>
 
-            <p class="cargo">
-            Estudante de Ciência da Computação | Análise de Dados | Power BI | Python
-            </p>
+                <p class="role">Estudante de Ciência da Computação, com foco em análise de dados</p>
 
-            <p>
-             Apaixonado por tecnologia e inovação, construindo minha trajetória em Ciência da Computação com foco em desenvolvimento e análise de dados.
-            </p>
+                <p class="pitch">
+                    Transformo ideias em soluções através de código e dados — de um sistema de
+                    gestão em Python a dashboards em Power BI. Atualmente no 4º semestre da UDF,
+                    em Brasília, em busca de um estágio para aplicar essas habilidades em um
+                    contexto real.
+                </p>
 
-        </div>
-
-        <p class="hero-img">
-
-            <img src="fotos/foto.png" alt="Minha foto">
-
-        </p>
-
-    </section>
-
-    <section id="sobre">
-
-        <h2>Sobre Mim</h2>
-
-        <p>
-        Sou estudante de Ciência da Computação na UDF, com foco em Análise de Dados e interesse em Business Intelligence e
-        Engenharia de Dados. Tenho me dedicado ao desenvolvimento de habilidades em programação, bancos de dados, visualização
-        de dados e ferramentas analíticas, buscando transformar dados em informações estratégicas para apoiar decisões e gerar
-        valor.
-        </p>
-
-    </section>
-
-    <section id="tecnologias">
-
-        <h2>Tecnologias</h2>
-
-        <div class="container-cards">
-
-            <button class="btn-slide prev">&#10094;</button>
-
-            <div class="cards">
-                <div class="card">
-                    <img src="fotos/html.png">
-                    <h3>HTML</h3>
+                <div class="hero-actions">
+                    <a href="#projetos" class="btn-primary">Ver projetos</a>
+                    <a href="Curriculo.pdf" target="_blank" class="btn-secondary">Baixar currículo</a>
                 </div>
 
-                <div class="card">
-                    <img src="fotos/css.png">
-                    <h3>CSS</h3>
-                </div>
+                <dl class="hero-facts">
+                    <div class="fact">
+                        <dt>Formação</dt>
+                        <dd>Ciência da Computação, 2025–2028</dd>
+                    </div>
+                    <div class="fact">
+                        <dt>Local</dt>
+                        <dd>Brasília, DF</dd>
+                    </div>
+                    <div class="fact">
+                        <dt>Idioma</dt>
+                        <dd>Inglês intermediário</dd>
+                    </div>
+                </dl>
 
-                <div class="card">
-                    <img src="fotos/sql.png">
-                    <h3>Sql</h3>
-                </div>
-
-                <div class="card">
-                    <img src="fotos/python.png">
-                    <h3>Python</h3>
-                </div>
-
-                <div class="card">
-                    <img src="fotos/java.png">
-                    <h3>Java</h3>
-                </div>
-
-                <div class="card">
-                    <img src="fotos/php.png">
-                    <h3>PHP</h3>
-                </div>
-
-                <div class="card">
-                    <img src="fotos/excel.png">
-                    <h3>Excel</h3>
-                </div>
-
-                <div class="card">
-                    <img src="fotos/power.png">
-                    <h3>Power BI</h3>
-                </div>
-
-                <div class="card">
-                    <img src="fotos/boot.png">
-                    <h3>Bootstrap</h3>
-                </div>
-
-                <div class="card">
-                    <img src="fotos/trello.png">
-                    <h3>Trello</h3>
-                </div>
-
-                <div class="card">
-                    <img src="fotos/git.png">
-                    <h3>Git</h3>
-                </div>
-    
             </div>
-            <button class="btn-slide next">&#10095;</button>
-        </div>
 
-    </section>
+            <div class="hero-visual">
+                <figure class="portrait">
+                    <img src="fotos/foto.png" alt="Retrato de Artur Nunes Duarte">
+                </figure>
+            </div>
 
+        </section>
 
-    <section id="projetos">
+        <section id="sobre">
 
-        <h2>Projetos</h2>
+            <div class="section-head">
+                <h2>Sobre mim</h2>
+            </div>
 
-        <div class="projeto-card">
+            <div class="sobre-conteudo">
 
-            <h3>Sistema ERP</h3>
+                <p class="sobre-texto">
+                    Sou estudante de Ciência da Computação na UDF, com foco em análise de dados e
+                    interesse em Business Intelligence e Engenharia de Dados. Tenho me dedicado ao
+                    desenvolvimento de habilidades em programação, bancos de dados, visualização
+                    de dados e ferramentas analíticas — buscando transformar dados em informações
+                    estratégicas que apoiem decisões e gerem valor real para o negócio.
+                </p>
 
-            <p>
-                Desenvolvimento de um sistema ERP voltado para a gestão de informações empresariais, com funcionalidades
-                de cadastro e gerenciamento de dados. O projeto foi desenvolvido com o objetivo de aprimorar habilidades
-                em programação, banco de dados e modelagem de sistemas, aplicando conceitos utilizados em ambientes
-                corporativos reais.
-                <p><strong>Principais competências desenvolvidas:</strong></p>
-                • Desenvolvimento de aplicações<br>
-                • Banco de dados e consultas SQL<br>
-                • Organização de regras de negócio<br>
-                • Versionamento de código com Git e GitHub<br>
-                • Resolução de problemas e pensamento lógico<br>
-            </p>
+            </div>
 
-            <button>
-                <a href="https://github.com/ArturNunes-cmd/Projeto-ERP" target="_blank" class="btn-github"
-                title="clique para visitar">🔗 Ver Projeto</a>
-            </button>
+        </section>
 
-        </div>
+        <section id="tecnologias">
 
-        <div class="projeto-card">
+            <div class="section-head">
+                <h2>Tecnologias</h2>
+                <p>Ferramentas que uso no dia a dia para programar, tratar e apresentar dados.</p>
+            </div>
 
-            <h3>Sistema em Crud PHP</h3>
+            <div class="skills-groups">
 
-            <p>
-                Desenvolvimento de uma aplicação web CRUD utilizando PHP e banco de dados, permitindo o cadastro, consulta, atualização
-                e exclusão de registros de forma dinâmica e organizada.O projeto foi desenvolvido com o objetivo de aprimorar
-                conhecimentos em desenvolvimento web, integração com banco de dados e implementação das operações fundamentais de
-                manipulação de dados em aplicações reais.
-                <p><strong>Principais competências desenvolvidas:</strong></p>  
-                • Desenvolvimento web com PHP<br>
-                • Integração com banco de dados MySQL<br>
-                • Operações CRUD (Create, Read, Update e Delete)<br>
-                • Manipulação e validação de dados<br>
-                • Estruturação de aplicações web<br>
-                • Versionamento de código com Git e GitHub<br>
-            </p>
+                <div class="skills-group">
+                    <h3>Linguagens & desenvolvimento web</h3>
+                    <ul class="skills-list">
+                        <li><img src="fotos/html.png" alt="HTML"><span>HTML</span></li>
+                        <li><img src="fotos/css.png" alt="CSS"><span>CSS</span></li>
+                        <li><img src="fotos/python.png" alt="Python"><span>Python</span></li>
+                        <li><img src="fotos/java.png" alt="Java"><span>Java</span></li>
+                        <li><img src="fotos/php.png" alt="PHP"><span>PHP</span></li>
+                        <li><img src="fotos/boot.png" alt="Bootstrap"><span>Bootstrap</span></li>
+                    </ul>
+                </div>
 
-            <button>
-                <a href="https://github.com/ArturNunes-cmd/Php-crud" target="_blank" class="btn-github"
-                title="clique para visitar">🔗 Ver Projeto</a> 
-            </button>
+                <div class="skills-group">
+                    <h3>Dados & análise</h3>
+                    <ul class="skills-list">
+                        <li><img src="fotos/sql.png" alt="SQL"><span>SQL</span></li>
+                        <li><img src="fotos/excel.png" alt="Excel"><span>Excel</span></li>
+                        <li><img src="fotos/power.png" alt="Power BI"><span>Power BI</span></li>
+                    </ul>
+                </div>
 
-        </div>
+                <div class="skills-group">
+                    <h3>Ferramentas & processos</h3>
+                    <ul class="skills-list">
+                        <li><img src="fotos/git.png" alt="Git"><span>Git</span></li>
+                        <li><img src="fotos/trello.png" alt="Trello"><span>Trello</span></li>
+                    </ul>
+                </div>
 
-    </section>
+            </div>
 
-    <section id="contato">
+        </section>
 
-        <h2>Contato</h2>
+        <section id="projetos">
 
-        <p>
-            <a href="https://www.linkedin.com/in/artur-nunes-dev" target="_blank"
-                title="clique para visitar">Linkedin</a>
-        </p>
+            <div class="section-head">
+                <h2>Projetos</h2>
+                <p>Trabalhos práticos que desenvolvi para aplicar o que aprendo em sala de aula.</p>
+            </div>
 
-        <p>
-            <a href="https://github.com/ArturNunes-cmd/ArturNunes-cmd" target="_blank"
-                title="clique para visitar">GitHub</a>
-        </p>
-        
-        <p>
-            <a href="Curriculo.pdf" target="_blank" title="clique para visitar">
-                Baixar currículo</a>
-        </p>
+            <div class="projetos-grid">
 
-    </section>
+                <article class="projeto-card">
+
+                    <h3>Sistema ERP em Python</h3>
+
+                    <p>
+                        Sistema de gestão empresarial construído do zero, com cadastro, edição,
+                        exclusão e listagem de dados, além de consulta de giro, controle de
+                        estoque e geração de gráficos com Matplotlib e NumPy, integrado a um
+                        banco de dados SQL.
+                    </p>
+
+                    <ul class="tag-list">
+                        <li>Python</li>
+                        <li>SQL</li>
+                        <li>Matplotlib</li>
+                        <li>NumPy</li>
+                    </ul>
+
+                    <a href="https://github.com/ArturNunes-cmd/Projeto-ERP" target="_blank" class="link-projeto">
+                        Ver repositório no GitHub
+                    </a>
+
+                </article>
+
+                <article class="projeto-card">
+
+                    <h3>Aplicação Web CRUD em PHP</h3>
+
+                    <p>
+                        Aplicação web completa para cadastro, consulta, atualização e exclusão de
+                        registros, com integração a banco de dados MySQL, validação de dados e
+                        interface responsiva.
+                    </p>
+
+                    <ul class="tag-list">
+                        <li>PHP</li>
+                        <li>MySQL</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                    </ul>
+
+                    <a href="https://github.com/ArturNunes-cmd/Php-crud" target="_blank" class="link-projeto">
+                        Ver repositório no GitHub
+                    </a>
+
+                </article>
+
+                <article class="projeto-card">
+
+                    <h3>Inclusão digital para idosos (+60)</h3>
+
+                    <p>
+                        Auxílio voluntário a idosos no uso de tecnologia, do básico em
+                        computadores e celulares ao acesso a plataformas governamentais —
+                        desenvolvendo comunicação, didática e paciência para adaptar o ritmo de
+                        ensino a cada pessoa.
+                    </p>
+
+                    <ul class="tag-list">
+                        <li>Comunicação</li>
+                        <li>Didática</li>
+                        <li>Voluntariado</li>
+                    </ul>
+
+                </article>
+
+            </div>
+
+        </section>
+
+        <section id="contato">
+
+            <div class="section-head">
+                <h2>Contato</h2>
+                <p>Aberto a oportunidades de estágio.</p>
+            </div>
+
+            <div class="contato-grid">
+
+                <a href="mailto:Arturduartebsb@outlook.com" class="contato-item">
+                    <span class="contato-label">E-mail</span>
+                    <span class="contato-valor">Arturduartebsb@outlook.com</span>
+                </a>
+
+                <a href="tel:+5561982366893" class="contato-item">
+                    <span class="contato-label">Telefone</span>
+                    <span class="contato-valor">(61) 98236-6893</span>
+                </a>
+
+                <a href="https://www.linkedin.com/in/artur-nunes-dev" target="_blank" class="contato-item">
+                    <span class="contato-label">LinkedIn</span>
+                    <span class="contato-valor">ArturNunes-dev</span>
+                </a>
+
+                <a href="https://github.com/ArturNunes-cmd/ArturNunes-cmd" target="_blank" class="contato-item">
+                    <span class="contato-label">GitHub</span>
+                    <span class="contato-valor">ArturNunes-cmd</span>
+                </a>
+
+            </div>
+
+        </section>
+
+    </main>
 
     <footer>
-    © 2026 Artur Nunes
+        © 2026 Artur Nunes Duarte
     </footer>
 
     <script src="script.js"></script>
